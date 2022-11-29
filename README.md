@@ -1,6 +1,6 @@
 # Magic Canvas
 
-Magic Canvas is a web based vector drawing application. The purpose of Method Draw is to provide a simple and easy-to-use SVG editor experience. It purposely removes some features such as layers and line-caps/corners in exchange for a more simple and pleasant experience.
+Magic Canvas is a web based vector drawing application. The purpose of Magic Canvas is to provide a simple and easy-to-use SVG editor experience. It purposely removes some features such as layers and line-caps/corners in exchange for a more simple and pleasant experience.
 
 ## Online sync and sharing
 
@@ -8,9 +8,9 @@ Cloud sync and sharing are available on Magic Canvas for Deta.
 
 [<img src="https://method.ac/img/install-on-deta.png" width="200">](https://deta.space/discovery/method-draw?ref=method.ac)
 
-#### [Try Magic Canvas](https://editor.method.ac) online.
+#### [Try Magic Canvas](https://aishtomer.github.io/MagicCanvas/) online.
 
-![Magic Canvas](https://method.ac/img/method-draw2021.png)
+![Magic Canvas](./images/magic.png)
 
 ## Development
 
