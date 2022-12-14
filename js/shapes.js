@@ -1,13 +1,3 @@
-/*
- * ext-shapes.js
- *
- * Licensed under the Apache License, Version 2
- *
- * Copyright(c) 2010 Christian Tzurcanu
- * Copyright(c) 2010 Alexis Deveria
- *
- */
-
 methodDraw.addExtension("shapes", function() {
 
   var current_d, cur_shape_id;

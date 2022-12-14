@@ -1,11 +1,3 @@
-/**
- * Package: svgedit.draw
- *
- * Licensed under the Apache License, Version 2
- *
- * Copyright(c) 2011 Jeff Schiller
- */
-
 // Dependencies:
 // 1) jQuery
 // 2) browser.js

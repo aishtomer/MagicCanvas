@@ -1,12 +1,3 @@
-/**
- * Package: svgedit.browser
- *
- * Licensed under the Apache License, Version 2
- *
- * Copyright(c) 2010 Jeff Schiller
- * Copyright(c) 2010 Alexis Deveria
- */
-
 // Dependencies:
 // 1) jQuery (for $.alert())
 

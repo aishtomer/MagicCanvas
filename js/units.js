@@ -1,12 +1,3 @@
-/**
- * Package: svgedit.units
- *
- * Licensed under the Apache License, Version 2
- *
- * Copyright(c) 2010 Alexis Deveria
- * Copyright(c) 2010 Jeff Schiller
- */
-
 // Dependencies:
 // 1) jQuery
 

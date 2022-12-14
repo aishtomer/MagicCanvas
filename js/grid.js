@@ -1,13 +1,3 @@
-/*
- * ext-grid.js
- *
- * Licensed under the Apache License, Version 2
- *
- * Copyright(c) 2010 Redou Mine
- * Copyright(c) 2010 Alexis Deveria
- *
- */
-
 // Dependencies:
 // 1) units.js
 // 2) everything else

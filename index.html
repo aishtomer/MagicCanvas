@@ -1,58 +1,55 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1"/>
+    <link rel="icon" href="images/favicon.svg" sizes="any" type="image/svg+xml">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <title>Magic Canvas Vector Editor</title>
+    <meta charset="utf-8">
+    <meta name="description" content="Magic Canvas is an SVG editor for the web, you can use it online without signing up.">
 
-<head>
-  <meta http-equiv="X-UA-Compatible" content="chrome=1"/>
-  <link rel="icon" href="images/favicon.svg" sizes="any" type="image/svg+xml">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
-  <meta name="apple-mobile-web-app-capable" content="yes"/>
-  <title>Magic Canvas Vector Editor</title>
-  <meta charset="utf-8">
-  <meta name="description" content="Magic Canvas is an open source SVG editor for the web, you can use it online without signing up.">
+    <!-- build:css all.css -->
+    <link rel="stylesheet" href="css/base.css" type="text/css"/>
+    <link rel="stylesheet" href="css/method-draw.css" type="text/css"/>
+    <link rel="stylesheet" href="css/jpicker.css" type="text/css"/>
+    <link rel="stylesheet" href="css/jgraduate.css" type="text/css"/>
+    <link rel="stylesheet" href="css/fonts.css" type="text/css"/>
+    <link rel="stylesheet" href="css/dropdown.css" type="text/css"/>
+    <link rel="stylesheet" href="css/draginput.css" type="text/css"/>
+    <link rel="stylesheet" href="css/menu.css" type="text/css"/>
+    <link rel="stylesheet" href="css/rulers.css" type="text/css"/>
+    <link rel="stylesheet" href="css/palette.css" type="text/css"/>
+    <link rel="stylesheet" href="css/color-tool.css" type="text/css"/>
+    <link rel="stylesheet" href="css/context-menu.css" type="text/css"/>
+    <link rel="stylesheet" href="css/shapelib.css" type="text/css"/>
+    <link rel="stylesheet" href="css/modal.css" type="text/css"/>
+    <link rel="stylesheet" href="css/source.css" type="text/css"/>
+    <link rel="stylesheet" href="css/keyboard.css" type="text/css"/>
+    <link rel="stylesheet" href="css/dialog.css" type="text/css"/>
+    <link rel="stylesheet" href="css/app.css" type="text/css"/>
+    <link rel="stylesheet" href="css/tools.css" type="text/css"/>
+    <link rel="stylesheet" href="css/button.css" type="text/css"/>
+    <link rel="stylesheet" href="css/select.css" type="text/css"/>
+    <link rel="stylesheet" href="css/panel.css" type="text/css"/>
+    <link rel="stylesheet" href="css/align_buttons.css" type="text/css"/>
+    <link rel="stylesheet" href="css/text.css" type="text/css"/>
+    <link rel="stylesheet" href="css/sponsors.css" type="text/css"/>
+    <link rel="stylesheet" href="css/zoom-dropdown.css" type="text/css"/>
+    <link rel="stylesheet" href="css/loading.css" type="text/css"/>
+    <!-- endbuild -->
+  </head>
+  <body class="loading">
+    <div id="method-draw" class="app">
+      <div id="rulers">
+        <div id="ruler_corner"></div>
+        <div id="ruler_x"></div>
+        <div id="ruler_y"></div>
+      </div>
 
-  <!-- build:css all.css -->
-  <link rel="stylesheet" href="css/base.css" type="text/css"/>
-  <link rel="stylesheet" href="css/method-draw.css" type="text/css"/>
-  <link rel="stylesheet" href="css/jpicker.css" type="text/css"/>
-  <link rel="stylesheet" href="css/jgraduate.css" type="text/css"/>
-  <link rel="stylesheet" href="css/fonts.css" type="text/css"/>
-  <link rel="stylesheet" href="css/dropdown.css" type="text/css"/>
-  <link rel="stylesheet" href="css/draginput.css" type="text/css"/>
-  <link rel="stylesheet" href="css/menu.css" type="text/css"/>
-  <link rel="stylesheet" href="css/rulers.css" type="text/css"/>
-  <link rel="stylesheet" href="css/palette.css" type="text/css"/>
-  <link rel="stylesheet" href="css/color-tool.css" type="text/css"/>
-  <link rel="stylesheet" href="css/context-menu.css" type="text/css"/>
-  <link rel="stylesheet" href="css/shapelib.css" type="text/css"/>
-  <link rel="stylesheet" href="css/modal.css" type="text/css"/>
-  <link rel="stylesheet" href="css/source.css" type="text/css"/>
-  <link rel="stylesheet" href="css/keyboard.css" type="text/css"/>
-  <link rel="stylesheet" href="css/dialog.css" type="text/css"/>
-  <link rel="stylesheet" href="css/app.css" type="text/css"/>
-  <link rel="stylesheet" href="css/tools.css" type="text/css"/>
-  <link rel="stylesheet" href="css/button.css" type="text/css"/>
-  <link rel="stylesheet" href="css/select.css" type="text/css"/>
-  <link rel="stylesheet" href="css/panel.css" type="text/css"/>
-  <link rel="stylesheet" href="css/align_buttons.css" type="text/css"/>
-  <link rel="stylesheet" href="css/text.css" type="text/css"/>
-  <link rel="stylesheet" href="css/sponsors.css" type="text/css"/>
-  <link rel="stylesheet" href="css/zoom-dropdown.css" type="text/css"/>
-  <link rel="stylesheet" href="css/loading.css" type="text/css"/>
-  <!-- endbuild -->
-</head>
-<body class="loading">
-
-<div id="method-draw" class="app">
-<div id="rulers">
-  <div id="ruler_corner"></div>
-  <div id="ruler_x"></div>
-  <div id="ruler_y"></div>
-</div>
-
-<div id="workarea">
-<div id="svgcanvas">
-</div>
-</div>
+      <div id="workarea">
+        <div id="svgcanvas"></div>
+      </div>
 
 <div id="menu_bar">
   <a class="menu">
